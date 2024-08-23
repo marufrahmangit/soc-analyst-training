@@ -22,7 +22,7 @@ Key functions include *monitoring*, *detecting*, and *responding*, however, what
 # Frameworks and OSINT Tools
 ## NIST Incident Response Lifecycle
 
-| Preparation →     | Detection & Analysis →   | Containment & Eradication →   | Post-Incident Activity →   |
+| Preparation →     | Detection & Analysis →   | Containment & Eradication →   | Post-Incident Activity   |
 |-------------------|--------------------------|-------------------------------|----------------------------|
 | Prioritize key assets. | Identify scope & impact. | Recovery steps.                | Review & improve.          |
 
