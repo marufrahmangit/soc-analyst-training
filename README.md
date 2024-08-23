@@ -26,5 +26,13 @@ Key functions include *monitoring*, *detecting*, and *responding*, however, what
 |-------------------|--------------------------|-------------------------------|----------------------------|
 | Prioritize key assets. | Identify scope & impact. | Recovery steps.                | Review & improve.          |
 
+## SANS Incident Response Lifecycle
+
+![image](https://github.com/user-attachments/assets/d389d4bc-3f55-44bc-9d2c-3e839d60ebb8)
+
+## Lockheed Marting Kill Chain- a way to follow the attacker
+
+![image](https://github.com/user-attachments/assets/093207b0-2bd8-46a1-9c23-e853ed6fdd36)
+
 
 
