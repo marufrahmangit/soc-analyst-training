@@ -13,3 +13,17 @@ Key functions include *monitoring*, *detecting*, and *responding*, however, what
 
 # SOC Analyst responsibilities
 ![image](https://github.com/user-attachments/assets/00f4cf30-53ca-4681-ba03-90fdab4673b1)
+
+# Common Threats
+- Social Engineering: phishing, vishing (imposter/phone call), quishing (QR code phishing)
+- Identity compromise: brute force, social engineering, credential dumps
+- Malware: worm, spyware, adware, ransomware, trojan, fileless
+
+# Frameworks and OSINT Tools
+## NIST Incident Response Lifecycle
+|Preparation -> | Detection & Analysis -> | Containment & Eradication -> | Post-Incident Activity|
+|---------------|-------------------------|------------------------------|-----------------------|
+|Plan and understand of what is most important.|Scope and impact of where evil is present.|Steps to recover from the incident.|What went wrong/right. Improvments|
+
+
+
