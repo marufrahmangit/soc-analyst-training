@@ -1,4 +1,4 @@
-# SOC ANALYST MINI TRAINING COURSE
+# SOC ANALYST TRAINING
 [course-link](https://www.youtube.com/watch?v=GxFBa-wfSbs)
 
 ## A SOC protects organizations from threats but most importantly *confidentiality*, *integrity*, and *availability* (CIA) of digital assets. 
