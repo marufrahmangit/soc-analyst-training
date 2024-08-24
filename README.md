@@ -150,12 +150,8 @@ SIEM is like a security guard watching cameras and alarms in your house, spottin
 -Event Viewer: The Event Viewer is like a security camera log for your house. It records everything that happens (good and bad) so you can check later if something goes wrong or just see what’s been going on.
 - Performance Monitor: This tool is like a fitness tracker for your house. It monitors how well everything is running, like checking if the power (CPU) is being used too much or if there’s too much traffic in the hallways (memory and network usage).
 - Services: These are like the different utilities (like electricity or water) running in your house. The Services tool lets you start, stop, or change how these utilities work, like deciding when to turn the heat on or off (starting or stopping a service).
-
-### 7. System Information
-This is like a blueprint of your house that shows all the details about what’s inside, like how big each room is (memory), what materials were used (hardware), and how everything is set up (system configuration).
-
-### 8. Task Manager
-Task Manager is like a quick list of everything happening in your house right now—what rooms are in use (applications running), how much energy is being used (CPU and memory), and who’s using it (which applications are responsible).
+- System Information: This is like a blueprint of your house that shows all the details about what’s inside, like how big each room is (memory), what materials were used (hardware), and how everything is set up (system configuration).
+- Task Manager: Task Manager is like a quick list of everything happening in your house right now—what rooms are in use (applications running), how much energy is being used (CPU and memory), and who’s using it (which applications are responsible).
 
 # Incident Handling Stages
 If something bad happens, you:
@@ -172,6 +168,37 @@ This is like figuring out how a bad guy snuck in, what damage they did, and how 
 
 # Threat Hunting - Scanning Attack on Web Server, Brute Force Attack
 Threat hunting is like searching for bad guys hiding in your house. You look for signs of forced entry (brute force) or sneakiness (scanning).
+
+**Identify Indicators of Scanning**:
+- Unusual spikes in network traffic directed at the web server.
+- Repeated access attempts to various ports in quick succession.
+- Access requests from a single IP address to multiple URLs or resources.
+**Log Analysis**:
+- Analyze web server logs for patterns that indicate systematic probing (e.g., multiple 404 or 403 error codes from the same IP).
+- Use intrusion detection/prevention systems (IDS/IPS) logs to identify any detected scanning activities.
+**Network Traffic Analysis**:
+- Monitor for unusual network traffic patterns, such as large numbers of SYN packets without corresponding ACK packets, which could indicate a port scan.
+- Utilize network flow data to identify traffic anomalies that align with scanning behavior.
+**Response Actions**:
+- Block the source IP if it's determined to be malicious.
+- Implement rate limiting or CAPTCHA challenges to slow down or thwart automated scans.
+- Review and harden the web server's security posture, including closing unnecessary ports and services.
+
+**Identify Indicators of Brute Force Attempts**:
+- Multiple failed login attempts from the same IP address over a short period.
+- Unusual spikes in login attempts, particularly on specific accounts.
+- Login attempts with common usernames (e.g., "admin," "root") or default credentials.
+**Log Analysis**:
+- Examine authentication logs for patterns of repeated failed login attempts.
+- Look for login attempts from unusual geographic locations or IP addresses.
+- Network Traffic Analysis:
+- Monitor for high volumes of traffic to the login endpoint of a web application.
+- Analyze network traffic for patterns that suggest automated tools are being used to perform the attack.
+**Response Actions**:
+- Temporarily block or blacklist the IP address if the attack is ongoing.
+- Implement account lockout mechanisms after a defined number of failed login attempts.
+- Enforce strong password policies and multi-factor authentication (MFA) to make brute force attacks more difficult.
+- Notify the affected user and prompt them to reset their password if their account was targeted.
 
 # Email Header Analysis
 Reading an email header is like checking the return address on an envelope to see where it really came from and if it’s safe to open.
