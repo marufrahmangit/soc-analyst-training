@@ -1,8 +1,8 @@
 # SOC ANALYST TRAINING
-Learning sources: 
-- Mini-training course: https://youtu.be/GxFBa-wfSbs?si=tNhBAl6QeIHStnro
-- Udemy: https://www.udemy.com/course/cyber-security-soc-analyst-training-siem-splunk-60-hrs/?referralCode=C89A70FBEB632AB7752C (used chatgpt to study topics)
-- Splunk beginner tutorial: https://www.youtube.com/watch?v=3CiRs6WaWaU\
+Learning sources and summary: 
+- SOC Fundamentals and Security Onion SIEM: https://youtu.be/GxFBa-wfSbs?si=tNhBAl6QeIHStnro
+- Important SOC training topics from this course-> Udemy: https://www.udemy.com/course/cyber-security-soc-analyst-training-siem-splunk-60-hrs/?referralCode=C89A70FBEB632AB7752C (used chatgpt to study topics)
+- Splunk beginner tutorial- installation and basic configuration: https://www.youtube.com/watch?v=3CiRs6WaWaU\
 - Splunk crash course: https://youtu.be/LbR5cqqaFVk?si=eRHQoE0p1RfNVKqL
 
 ## A SOC protects organizations from threats but most importantly *confidentiality*, *integrity*, and *availability* (CIA) of digital assets. 
@@ -78,6 +78,10 @@ A solution that allows an organization to consolidate and aggregate data into a 
 - Ticketing & Reporting: Case management, dashboard, audits and reports.
 
 Free SIEM Tool: [**Security Onion**](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbnlHQ3pVOWpaTzdKY0JsYTdHRktiYTNTNUJfQXxBQ3Jtc0ttQUFVU19CcG9ITDJnNXo5VENYSHJCZy0yUE1DM01vSGlUNDBOTFRxVGdtXzYxa0UtdWRlMnRRaVZhRWU5T283UDg2bVNJQjl3SFBDZV9OQ0lQVlRMeWVyWDVkVHl2SFVJejZaNWwzZzJORjZOR0tFcw&q=https%3A%2F%2Fgithub.com%2FSecurity-Onion-Solutions%2Fsecurityonion%2Fblob%2F2.4%2Fmain%2FDOWNLOAD_AND_VERIFY_ISO.md&v=GxFBa-wfSbs)
+
+### Splunk
+Has own database language: Search processing language (SPL).
+
 
 # ISO Model
 Think of the ISO model like a 7-layer cake. Each layer has its job in helping computers talk to each other. The layers are:
