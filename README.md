@@ -1,9 +1,9 @@
 # SOC ANALYST TRAINING
 Learning sources and summary: 
-- [**SOC Fundamentals and Security Onion SIEM**](https://youtu.be/GxFBa-wfSbs?si=tNhBAl6QeIHStnro)
-- [**Important SOC training topics from this Udemy course**](https://www.udemy.com/course/cyber-security-soc-analyst-training-siem-splunk-60-hrs/?referralCode=C89A70FBEB632AB7752C) (used chatgpt to study topics)
-- [**Splunk Installation and basic Configurations**](https://youtu.be/3CiRs6WaWaU?si=z27fnt6_SXzjhqTy)
-- [Splunk Crash Course**](https://youtu.be/LbR5cqqaFVk?si=eRHQoE0p1RfNVKqL)
+- [SOC Fundamentals and Security Onion SIEM](https://youtu.be/GxFBa-wfSbs?si=tNhBAl6QeIHStnro)
+- [Important SOC training topics from this Udemy course](https://www.udemy.com/course/cyber-security-soc-analyst-training-siem-splunk-60-hrs/?referralCode=C89A70FBEB632AB7752C) (used chatgpt to study topics)
+- [Splunk Installation and basic Configurations](https://youtu.be/3CiRs6WaWaU?si=z27fnt6_SXzjhqTy)
+- [Splunk Crash Course](https://youtu.be/LbR5cqqaFVk?si=eRHQoE0p1RfNVKqL)
 
 ## A SOC protects organizations from threats but most importantly *confidentiality*, *integrity*, and *availability* (CIA) of digital assets. 
 
