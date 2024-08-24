@@ -81,13 +81,13 @@ Free SIEM Tool: [**Security Onion**](https://www.youtube.com/redirect?event=vide
 # ISO Model
 Think of the ISO model like a 7-layer cake. Each layer has its job in helping computers talk to each other. The layers are:
 
-**Physical** - wires and signals.
-**Data Link** - rules for sending data.
-**Network** - addresses for where data goes.
-**Transport** - making sure data is whole.
-**Session** - managing conversations.
-**Presentation** - making data readable.
-**Application** - programs we use.
+- **Physical** - wires and signals.
+- **Data Link** - rules for sending data.
+- **Network** - addresses for where data goes.
+- **Transport** - making sure data is whole.
+- **Session** - managing conversations.
+- **Presentation** - making data readable.
+- **Application** - programs we use.
 
 # Public/Private Address Range/Subnetting
 Imagine your house has a street address (public) and rooms inside with different door numbers (private). Subnetting is like organizing rooms into groups, so you know where everything is.
