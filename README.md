@@ -35,18 +35,18 @@ Key functions include *monitoring*, *detecting*, and *responding*, however, what
 
 ## Lockheed Marting Kill Chain
 A list of phases an attacker will go through:
-1. Reconnaissance: Harvesting email addresses, company information, etc.
-2. Weaponization: Coupling exploit with a backdoor into the deliverable payload.
-3. Delivery: Delivering weaponized Delivering weaponized bundle to the victim via email, web, USB, etc.
-4. Exploitation: Exploiting a vulnerability to execute code on the victim's system.
-5. Installation: Installing malware on the asset.
-6. Command & Control (C2): Command channel for remote manipulation of the victim.
-7. Actions on Objectives: With 'hands-on keyboard' access, intruders accomplish their original goals.
+1. **Reconnaissance**: Harvesting email addresses, company information, etc.
+2. **Weaponization**: Coupling exploit with a backdoor into the deliverable payload.
+3. **Delivery**: Delivering weaponized Delivering weaponized bundle to the victim via email, web, USB, etc.
+4. **Exploitation**: Exploiting a vulnerability to execute code on the victim's system.
+5. **Installation**: Installing malware on the asset.
+6. **Command & Control (C2)**: Command channel for remote manipulation of the victim.
+7. **Actions on Objectives**: With 'hands-on keyboard' access, intruders accomplish their original goals.
 
 ## MITRE ATT&CK framework
-- Tactics: Initial access to a company.
-- Techniques: Example, phishing.
-- Procedures: Details and steps of the technique (includes sub-techniques).
+- **Tactics**: Initial access to a company.
+- **Techniques**: Example, phishing.
+- **Procedures**: Details and steps of the technique (includes sub-techniques).
 
 # OSINT (Open Source Intelligence) Tools
 ### IP Reputation/Information
@@ -81,13 +81,13 @@ Free SIEM Tool: [**Security Onion**](https://www.youtube.com/redirect?event=vide
 # ISO Model
 Think of the ISO model like a 7-layer cake. Each layer has its job in helping computers talk to each other. The layers are:
 
-Physical - wires and signals.
-Data Link - rules for sending data.
-Network - addresses for where data goes.
-Transport - making sure data is whole.
-Session - managing conversations.
-Presentation - making data readable.
-Application - programs we use.
+**Physical** - wires and signals.
+**Data Link** - rules for sending data.
+**Network** - addresses for where data goes.
+**Transport** - making sure data is whole.
+**Session** - managing conversations.
+**Presentation** - making data readable.
+**Application** - programs we use.
 
 # Public/Private Address Range/Subnetting
 Imagine your house has a street address (public) and rooms inside with different door numbers (private). Subnetting is like organizing rooms into groups, so you know where everything is.
@@ -144,24 +144,24 @@ Malware is like a bad guy hiding inside a toy to mess up your stuff. Types inclu
 SIEM is like a security guard watching cameras and alarms in your house, spotting and reacting to anything weird.
 
 # Windows OS - Computer Management, Utilities
-- Device Manager: This tool is like a checklist for all the devices (like printers, keyboards, and monitors) connected to your computer. If something isn't working right, you can check here to see if there's a problem with one of the devices.
-- Disk Management: Think of this tool as a map of all the storage spaces (like hard drives) in your house. It helps you see how much space you have, organize it (like making a new room by partitioning), or even change the way the space is used.
-- Task Scheduler: This is like a planner that helps you schedule tasks automatically. You can set it to clean up your house (run maintenance tasks), water the plants (run backups), or do other chores at specific times without you needing to remember.
--Event Viewer: The Event Viewer is like a security camera log for your house. It records everything that happens (good and bad) so you can check later if something goes wrong or just see what’s been going on.
-- Performance Monitor: This tool is like a fitness tracker for your house. It monitors how well everything is running, like checking if the power (CPU) is being used too much or if there’s too much traffic in the hallways (memory and network usage).
-- Services: These are like the different utilities (like electricity or water) running in your house. The Services tool lets you start, stop, or change how these utilities work, like deciding when to turn the heat on or off (starting or stopping a service).
-- System Information: This is like a blueprint of your house that shows all the details about what’s inside, like how big each room is (memory), what materials were used (hardware), and how everything is set up (system configuration).
-- Task Manager: Task Manager is like a quick list of everything happening in your house right now—what rooms are in use (applications running), how much energy is being used (CPU and memory), and who’s using it (which applications are responsible).
+- **Device Manager**: This tool is like a checklist for all the devices (like printers, keyboards, and monitors) connected to your computer. If something isn't working right, you can check here to see if there's a problem with one of the devices.
+- **Disk Management**: Think of this tool as a map of all the storage spaces (like hard drives) in your house. It helps you see how much space you have, organize it (like making a new room by partitioning), or even change the way the space is used.
+- **Task Scheduler**: This is like a planner that helps you schedule tasks automatically. You can set it to clean up your house (run maintenance tasks), water the plants (run backups), or do other chores at specific times without you needing to remember.
+- **Event Viewer**: The Event Viewer is like a security camera log for your house. It records everything that happens (good and bad) so you can check later if something goes wrong or just see what’s been going on.
+- **Performance Monitor**: This tool is like a fitness tracker for your house. It monitors how well everything is running, like checking if the power (CPU) is being used too much or if there’s too much traffic in the hallways (memory and network usage).
+- **Services**: These are like the different utilities (like electricity or water) running in your house. The Services tool lets you start, stop, or change how these utilities work, like deciding when to turn the heat on or off (starting or stopping a service).
+- **System Information**: This is like a blueprint of your house that shows all the details about what’s inside, like how big each room is (memory), what materials were used (hardware), and how everything is set up (system configuration).
+- **Task Manager**: Task Manager is like a quick list of everything happening in your house right now—what rooms are in use (applications running), how much energy is being used (CPU and memory), and who’s using it (which applications are responsible).
 
 # Incident Handling Stages
 If something bad happens, you:
 
-- Prepare - get ready.
-- Identify - spot the problem.
-- Contain - stop it from spreading.
-- Eradicate - remove the problem.
-- Recover - fix what’s broken.
-- Learn - make sure it doesn’t happen again.
+- **Prepare** - get ready.
+- **Identify** - spot the problem.
+- **Contain** - stop it from spreading.
+- **Eradicate** - remove the problem.
+- **Recover** - fix what’s broken.
+- **Learn** - make sure it doesn’t happen again.
 
 # Malware Outbreak Analysis
 This is like figuring out how a bad guy snuck in, what damage they did, and how to stop them next time.
