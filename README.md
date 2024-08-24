@@ -95,7 +95,41 @@ Think of the ISO model like a 7-layer cake. Each layer has its job in helping co
 - **Application** - programs we use.
 
 # Public/Private Address Range/Subnetting
-Imagine your house has a street address (public) and rooms inside with different door numbers (private). Subnetting is like organizing rooms into groups, so you know where everything is.
+
+#### Public vs. Private IP Addresses
+- **Public IP Address**: Just like your house's street address, a public IP address is unique and can be seen by anyone on the internet. It's how websites and other online services know where to send the information you request.
+  
+- **Private IP Address**: Inside your house, rooms have door numbers, but these aren't visible from the outside. Similarly, private IP addresses are used within your local network (like your home or office network) and can't be accessed directly from the outside world. 
+
+#### IP Address Classes (IPv4)
+In IPv4, addresses are divided into different "classes," much like different types of neighborhoods or areas:
+- **Class A**: Used for very large networks, like big companies. The range is `1.0.0.0` to `126.0.0.0`.
+- **Class B**: For medium-sized networks, like universities. The range is `128.0.0.0` to `191.255.0.0`.
+- **Class C**: For smaller networks, like small businesses. The range is `192.0.0.0` to `223.255.255.0`.
+- **Class D**: Used for multicast groups (sending data to multiple computers). The range is `224.0.0.0` to `239.255.255.255`.
+- **Class E**: Reserved for experimental purposes. The range is `240.0.0.0` to `255.255.255.255`.
+
+#### Private Address Ranges
+Private IP addresses come from specific ranges that are reserved for internal use:
+- **Class A**: `10.0.0.0` to `10.255.255.255`
+- **Class B**: `172.16.0.0` to `172.31.255.255`
+- **Class C**: `192.168.0.0` to `192.168.255.255`
+
+These ranges are not unique, so different houses (networks) can have the same private IPs without any conflict, but they can’t communicate directly with each other using these addresses.
+
+#### Subnetting
+Subnetting is like organizing your house into different sections or floors, with each section having its own set of rooms (IP addresses). It helps you manage and organize the network, making sure each part of the house (or network) knows where everything is and can communicate properly.
+
+For example, if you have a big house, you might divide it into floors:
+- The first floor has rooms numbered `192.168.1.x`.
+- The second floor has rooms numbered `192.168.2.x`.
+  
+This way, each floor knows which rooms belong to it, and you can easily direct traffic (data) to the correct floor and room.
+
+#### IPv4 vs. IPv6
+- **IPv4**: Like a traditional street address with a format like `192.168.1.1`. It uses 32 bits, allowing for about 4.3 billion unique addresses, which is not enough for every device in the world.
+
+- **IPv6**: Think of it as a new, longer address format that allows for many more unique addresses, like `2001:0db8:85a3:0000:0000:8a2e:0370:7334`. It uses 128 bits, providing a practically limitless number of addresses to ensure every device can have a unique IP.
 
 # HTTP and Understanding Service Ports
 HTTP is how your browser talks to websites, like asking for a page. Ports are like doorways on your computer; different doors (ports) are used for different tasks.
