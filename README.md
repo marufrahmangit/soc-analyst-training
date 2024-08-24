@@ -1,5 +1,8 @@
 # SOC ANALYST TRAINING
-[course-link](https://www.youtube.com/watch?v=GxFBa-wfSbs)
+Learning sources: 
+- Mini-training course: https://youtu.be/GxFBa-wfSbs?si=tNhBAl6QeIHStnro
+- Udemy: https://www.udemy.com/course/cyber-security-soc-analyst-training-siem-splunk-60-hrs/?referralCode=C89A70FBEB632AB7752C (used chatgpt to study topics)
+- Splunk: https://youtu.be/LbR5cqqaFVk?si=eRHQoE0p1RfNVKqL
 
 ## A SOC protects organizations from threats but most importantly *confidentiality*, *integrity*, and *availability* (CIA) of digital assets. 
 
@@ -73,7 +76,103 @@ A solution that allows an organization to consolidate and aggregate data into a 
 - Correlation & Analysis: Alert/rule creation, identify anomalies, and remediate threats.
 - Ticketing & Reporting: Case management, dashboard, audits and reports.
 
-Free SIEM Tool: **Security Onion**
+Free SIEM Tool: [**Security Onion**](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbnlHQ3pVOWpaTzdKY0JsYTdHRktiYTNTNUJfQXxBQ3Jtc0ttQUFVU19CcG9ITDJnNXo5VENYSHJCZy0yUE1DM01vSGlUNDBOTFRxVGdtXzYxa0UtdWRlMnRRaVZhRWU5T283UDg2bVNJQjl3SFBDZV9OQ0lQVlRMeWVyWDVkVHl2SFVJejZaNWwzZzJORjZOR0tFcw&q=https%3A%2F%2Fgithub.com%2FSecurity-Onion-Solutions%2Fsecurityonion%2Fblob%2F2.4%2Fmain%2FDOWNLOAD_AND_VERIFY_ISO.md&v=GxFBa-wfSbs)
 
-![image](https://github.com/user-attachments/assets/d28e9b39-acc2-4c5d-8b73-0c2d2ad5cfae)
+# ISO Model
+Think of the ISO model like a 7-layer cake. Each layer has its job in helping computers talk to each other. The layers are:
+
+Physical - wires and signals.
+Data Link - rules for sending data.
+Network - addresses for where data goes.
+Transport - making sure data is whole.
+Session - managing conversations.
+Presentation - making data readable.
+Application - programs we use.
+
+# Public/Private Address Range/Subnetting
+Imagine your house has a street address (public) and rooms inside with different door numbers (private). Subnetting is like organizing rooms into groups, so you know where everything is.
+
+# HTTP and Understanding Service Ports
+HTTP is how your browser talks to websites, like asking for a page. Ports are like doorways on your computer; different doors (ports) are used for different tasks.
+
+# SMB, SMTP, Telnet, SSH, FTP, SMTP, MySQL Services
+These are like different tools for talking between computers:
+
+- SMB: sharing files.
+- SMTP: sending emails.
+- Telnet: talking to another computer from far away.
+- SSH: talking securely to another computer.
+- FTP: moving files.
+- MySQL: storing and organizing data.
+
+# Cyber Kill Chain / Phases of Attack
+This is like the steps a bad guy takes to break into your house:
+
+- Recon - looking at your house.
+- Weaponization - picking a tool to break in.
+- Delivery - bringing the tool to your house.
+- Exploitation - using the tool to break in.
+- Installation - setting up inside your house.
+- Command and Control - controlling from afar.
+- Actions on Objectives - stealing stuff.
+
+# Brute Force Attack and Types
+Imagine guessing a password by trying every combination until you get it right. That's a brute-force attack. It can happen quickly or slowly, and sometimes, attackers guess more than just passwords.
+
+# Phishing and Spoofing Attacks
+Phishing is like someone pretending to be your friend to steal your candy. Spoofing is like someone changing their appearance to trick you into thinking they're someone else.
+
+# OWASP Top 10
+This is a list of the 10 most common ways bad guys can mess with websites, like:
+
+- Injection - sneaking in bad code.
+- Broken Authentication - weak password rules.
+- Sensitive Data Exposure - leaking secrets. …and more!
+
+# DNS Tunneling Attack
+Think of this as someone secretly sending messages through a tunnel underneath your house without you knowing. It’s hidden in normal traffic.
+
+# Malware and its Types
+Malware is like a bad guy hiding inside a toy to mess up your stuff. Types include:
+
+- Virus: spreads to other toys.
+- Worm: moves by itself.
+- Trojan: pretends to be good.
+- Ransomware: locks your toys and asks for money.
+
+# SIEM Use Cases
+SIEM is like a security guard watching cameras and alarms in your house, spotting and reacting to anything weird.
+
+# Windows OS - Computer Management, Utilities
+- Device Manager: This tool is like a checklist for all the devices (like printers, keyboards, and monitors) connected to your computer. If something isn't working right, you can check here to see if there's a problem with one of the devices.
+- Disk Management: Think of this tool as a map of all the storage spaces (like hard drives) in your house. It helps you see how much space you have, organize it (like making a new room by partitioning), or even change the way the space is used.
+- Task Scheduler: This is like a planner that helps you schedule tasks automatically. You can set it to clean up your house (run maintenance tasks), water the plants (run backups), or do other chores at specific times without you needing to remember.
+-Event Viewer: The Event Viewer is like a security camera log for your house. It records everything that happens (good and bad) so you can check later if something goes wrong or just see what’s been going on.
+- Performance Monitor: This tool is like a fitness tracker for your house. It monitors how well everything is running, like checking if the power (CPU) is being used too much or if there’s too much traffic in the hallways (memory and network usage).
+- Services: These are like the different utilities (like electricity or water) running in your house. The Services tool lets you start, stop, or change how these utilities work, like deciding when to turn the heat on or off (starting or stopping a service).
+
+### 7. System Information
+This is like a blueprint of your house that shows all the details about what’s inside, like how big each room is (memory), what materials were used (hardware), and how everything is set up (system configuration).
+
+### 8. Task Manager
+Task Manager is like a quick list of everything happening in your house right now—what rooms are in use (applications running), how much energy is being used (CPU and memory), and who’s using it (which applications are responsible).
+
+# Incident Handling Stages
+If something bad happens, you:
+
+- Prepare - get ready.
+- Identify - spot the problem.
+- Contain - stop it from spreading.
+- Eradicate - remove the problem.
+- Recover - fix what’s broken.
+- Learn - make sure it doesn’t happen again.
+
+# Malware Outbreak Analysis
+This is like figuring out how a bad guy snuck in, what damage they did, and how to stop them next time.
+
+# Threat Hunting - Scanning Attack on Web Server, Brute Force Attack
+Threat hunting is like searching for bad guys hiding in your house. You look for signs of forced entry (brute force) or sneakiness (scanning).
+
+# Email Header Analysis
+Reading an email header is like checking the return address on an envelope to see where it really came from and if it’s safe to open.
 
