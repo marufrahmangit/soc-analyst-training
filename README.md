@@ -173,12 +173,15 @@ Threat hunting is like searching for bad guys hiding in your house. You look for
 - Unusual spikes in network traffic directed at the web server.
 - Repeated access attempts to various ports in quick succession.
 - Access requests from a single IP address to multiple URLs or resources.
+  
 **Log Analysis**:
 - Analyze web server logs for patterns that indicate systematic probing (e.g., multiple 404 or 403 error codes from the same IP).
 - Use intrusion detection/prevention systems (IDS/IPS) logs to identify any detected scanning activities.
+  
 **Network Traffic Analysis**:
 - Monitor for unusual network traffic patterns, such as large numbers of SYN packets without corresponding ACK packets, which could indicate a port scan.
 - Utilize network flow data to identify traffic anomalies that align with scanning behavior.
+  
 **Response Actions**:
 - Block the source IP if it's determined to be malicious.
 - Implement rate limiting or CAPTCHA challenges to slow down or thwart automated scans.
@@ -188,12 +191,15 @@ Threat hunting is like searching for bad guys hiding in your house. You look for
 - Multiple failed login attempts from the same IP address over a short period.
 - Unusual spikes in login attempts, particularly on specific accounts.
 - Login attempts with common usernames (e.g., "admin," "root") or default credentials.
+  
 **Log Analysis**:
 - Examine authentication logs for patterns of repeated failed login attempts.
 - Look for login attempts from unusual geographic locations or IP addresses.
-- Network Traffic Analysis:
+  
+**Network Traffic Analysis**:
 - Monitor for high volumes of traffic to the login endpoint of a web application.
 - Analyze network traffic for patterns that suggest automated tools are being used to perform the attack.
+  
 **Response Actions**:
 - Temporarily block or blacklist the IP address if the attack is ongoing.
 - Implement account lockout mechanisms after a defined number of failed login attempts.
