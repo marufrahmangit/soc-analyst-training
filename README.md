@@ -2,7 +2,7 @@
 Learning sources: 
 - Mini-training course: https://youtu.be/GxFBa-wfSbs?si=tNhBAl6QeIHStnro
 - Udemy: https://www.udemy.com/course/cyber-security-soc-analyst-training-siem-splunk-60-hrs/?referralCode=C89A70FBEB632AB7752C (used chatgpt to study topics)
-- Splunk: https://youtu.be/LbR5cqqaFVk?si=eRHQoE0p1RfNVKqL
+- Splunk crash course: https://youtu.be/LbR5cqqaFVk?si=eRHQoE0p1RfNVKqL
 
 ## A SOC protects organizations from threats but most importantly *confidentiality*, *integrity*, and *availability* (CIA) of digital assets. 
 
