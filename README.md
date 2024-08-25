@@ -81,7 +81,11 @@ Free SIEM Tool: [**Security Onion**](https://www.youtube.com/redirect?event=vide
 
 ### Splunk
 Has own database language: Search processing language (SPL).
-
+- Event Log Collection,
+- Search & Reporting using SPL query
+- Dashboard
+- [Windows Event ID encyclopedia](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/)
+- 
 
 # ISO Model
 Think of the ISO model like a 7-layer cake. Each layer has its job in helping computers talk to each other. The layers are:
@@ -247,4 +251,3 @@ Threat hunting is like searching for bad guys hiding in your house. You look for
 
 # Email Header Analysis
 Reading an email header is like checking the return address on an envelope to see where it really came from and if it’s safe to open.
-
