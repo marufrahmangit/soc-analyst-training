@@ -107,7 +107,7 @@ Monitor for alerts from SIEM > Analyze the alert > Decide if the alert is bad > 
 - Recover deleted emails, recover data that has been deleted or encrypted, and uncover passwords
 - Establish and provide digital evidence for investigations and court proceedings
 - Conduct large-scale investigations and examine endpoint and network-based sources of evidence
-- Write complete, accurate, logical, consistent, grammatically correct, evidentiary-quality forensics reports that “tell the story” of the attack in a way that can be understood by tech and non-tech readers
+- Write complete, accurate, logical, consistent, grammatically correct, evidentiary-quality forensics reports that “**tell the story**” of the attack in a way that can be understood by tech and non-tech readers
 
 **Red Team Specialist**/ certificates: `csa` `oscp`
 - Continuously scan the network for weaknesses in systems, servers, network devices, or users
