@@ -29,3 +29,9 @@ course link: https://www.udemy.com/course/soc-essentials/
 **Cybersecurity Rule Enforcers**:
 Regulatory Compliance/ Industry Best practices
 - PCI DSS, GDPR, HIPAA
+
+## What is SOC
+- File line of defense
+- Organization security
+- Monitor, Detect, investigate, and respond to cyber threats
+Monitor for alerts from SIEM > Analyze the alert > Decide if the alert is bad > legitimate: ignore/bad: report for corrective actions > help the team to stop any bad activity.
