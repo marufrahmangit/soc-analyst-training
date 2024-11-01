@@ -35,3 +35,19 @@ Regulatory Compliance/ Industry Best practices
 - Organization security
 - Monitor, Detect, investigate, and respond to cyber threats
 Monitor for alerts from SIEM > Analyze the alert > Decide if the alert is bad > legitimate: ignore/bad: report for corrective actions > help the team to stop any bad activity.
+
+## SOC Building Blocks
+- People
+- Process
+- Technology
+
+### People
+L1 SOC Analyst / certificates: security+, cysa+, ceh, gisp
+`
+•	24/7 eyes-on-glass monitoring
+•	analysis of triggered alerts (usually following a playbook)
+•	raising tickets for validated incidents
+•	follow-up with incident response team for remediation
+•	drafting shift hand-overs
+•	assist L2/L3 in reporting
+`
