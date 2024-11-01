@@ -19,3 +19,13 @@ course link: https://www.udemy.com/course/soc-essentials/
 
 **Security Operations Center**: monitor, detect, investigate, respond to cyber threats
 - SIEM, SOAR, Threat Intelligence, Analysis Tools
+
+## Identifying/Root Cause Analysis
+**Log Monitoring**: 
+- Systems/Servers, Security Solutions, Network Devices
+
+**SIEM**: Identify suspicious activities from logs
+
+**Cybersecurity Rule Enforcers**:
+Regulatory Compliance/ Industry Best practices
+- PCI DSS, GDPR, HIPAA
