@@ -171,8 +171,10 @@ In order to achieve this level of automation, there should be a two way communic
 ## Different models of SOC
 
 Primarily, there are three types of SOC.
-- In-house SOC: tech and people in the company.
-- Outsourced SOC:
--   Dedicated;
--   Shared
-- Hybrid SOC
+**In-house SOC** 
+Tech and people in the company.
+**Outsourced SOC**
+-   Dedicated: Has tech but not enough experienced people, outsource > MSSP (managed security service provider).
+-   Shared: Both tech and people are with MSSP
+**Hybrid SOC**
+Tech is in-house, L1 is outsourced, senior roles like Incident Handlers are also in-house
