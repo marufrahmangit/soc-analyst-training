@@ -34,7 +34,7 @@ Regulatory Compliance/ Industry Best practices
 - File line of defense
 - Organization security
 - Monitor, Detect, investigate, and respond to cyber threats
-Monitor for alerts from SIEM > Analyze the alert > Decide if the alert is bad > legitimate: ignore/bad: report for corrective actions > help the team to stop any bad activity.
+- Monitor for alerts from SIEM > Analyze the alert > Decide if the alert is bad > legitimate: ignore/bad: report for corrective actions > help the team to stop any bad activity.
 
 # SOC Building Blocks
 - People
