@@ -38,7 +38,7 @@ Key functions include *monitoring*, *detecting*, and *responding*, however, what
 A list of phases an attacker will go through:
 1. **Reconnaissance**: Harvesting email addresses, company information, etc.
 2. **Weaponization**: Coupling exploit with a backdoor into the deliverable payload.
-3. **Delivery**: Delivering weaponized Delivering weaponized bundle to the victim via email, web, USB, etc.
+3. **Delivery**: Delivering weaponized bundle to the victim via email, web, USB, etc.
 4. **Exploitation**: Exploiting a vulnerability to execute code on the victim's system.
 5. **Installation**: Installing malware on the asset.
 6. **Command & Control (C2)**: Command channel for remote manipulation of the victim.
@@ -87,8 +87,8 @@ Has own database language: Search processing language (SPL).
 - [Windows Event ID encyclopedia](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/)
 - 
 
-# ISO Model
-Think of the ISO model like a 7-layer cake. Each layer has its job in helping computers talk to each other. The layers are:
+# OSI Model
+Think of the OSI model like a 7-layer cake. Each layer has its job in helping computers talk to each other. The layers are:
 
 - **Physical** - wires and signals.
 - **Data Link** - rules for sending data.
